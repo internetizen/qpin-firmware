@@ -13,7 +13,7 @@ This repository hosts the Over-The-Air (OTA) firmware updates and the landing pa
 1. **Compile**: Export the latest firmware as a compiled binary (e.g., `QPin_vX.X.ino.bin`).
 2. **Upload**: Place the `.bin` file inside the `firmware/` folder.
 3. **Update Manifest**: Edit `manifest.json` with the new version details:
-   - `version` / `build`: Version string and build integer.
+   - `version` / `build`: Version string and build integer. 
    - `releaseDate`: Release date (YYYY-MM-DD).
    - `fileName`: The exact name of the binary.
    - `url`: The absolute URL to the new binary.
